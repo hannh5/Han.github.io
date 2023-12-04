@@ -1,0 +1,131 @@
+/* Add styles to the body to ensure the content is centered */
+body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff; /* Dark background for the whole page */
+    margin: 0;
+    padding: 0;
+    color: #333; /* White text color for good contrast */
+}
+
+
+header {
+    background-color: #D44848; /* 淡蓝色 */
+    color: white;
+    text-align: center;
+    padding: 3em 0;
+}
+
+
+/* Style for the header's h1 element */
+header h1, header p {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style for the header */
+header {
+    padding-top: 50px; /* Increase the top padding to create more space above the image */
+}
+
+/* Style for the image container */
+.profile-photo {
+    margin-top: 30px; /* Increase the top margin to add more space below the welcome text */
+}
+
+/* Style for the sections */
+section {
+    margin-top: 80px;
+}
+
+/* Style for the image container */
+.profile-photo {
+    margin: 30px auto 10px; /* Space above and below the image container */
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border-radius: 50%; /* Makes the container circular */
+    border: 4px solid #fff; /* White border around the image */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Subtle shadow to lift the image off the page */
+    background-image: url('mine.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire area of the container */
+    background-position: center; /* Center the image within the container */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+/* Remove the img tag style if you're setting the image as a background */
+.profile-photo img {
+    display: none; /* Hide the img tag as we're using a background image now */
+}
+
+
+/* Style for the name and title below the image */
+.profile-description h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.profile-description p {
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+/* Style for social icons, if any */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons li a {
+    color: #fff; /* White color for icons */
+    text-decoration: none;
+}
+
+/* Style for buttons */
+button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+footer {
+    background-color: #D44848; /* 淡蓝色 */
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+body, html {
+    /* ...保持原有样式... */
+    font-size: 16px; /* 增加了基础字号 */
+}
+
+.profile-container h1 {
+    /* ...保持原有样式... */
+    font-size: 30px; /* 增加了标题的字号 */
+}
+
+.profile-container p {
+    /* ...保持原有样式... */
+    font-size: 18px; /* 增加了段落的字号 */
+}
+
+.navigation-buttons button {
+    /* ...保持原有样式... */
+    font-size: 16px; /* 增加了按钮的字号 */
+}
